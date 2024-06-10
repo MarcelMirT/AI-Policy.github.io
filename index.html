@@ -18,21 +18,7 @@
         <div class="container">
             <ul>
                 <li><a href="#overview">Overview</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Sessions</a>
-                    <div class="dropdown-content">
-                        <a href="#session1">Session 1: AI Policy Introduction</a>
-                        <a href="#session2">Session 2: Data Privacy Regulations</a>
-                        <a href="#session3">Session 3: Intellectual Property (IP) Rights</a>
-                        <a href="#session4">Session 4: AI Use in Decision-Making Tools & Processes</a>
-                        <a href="#session5">Session 5: Liability Allocation</a>
-                        <a href="#session6">Session 6: The US Landscape</a>
-                        <a href="#session7">Session 7: The EU Framework & The EU AI Act</a>
-                        <a href="#session8">Session 8: The UK</a>
-                        <a href="#session9">Session 9: China & Their Fragmented Approach to AI Regulations</a>
-                        <a href="#session10">Session 10: International Agreements</a>
-                    </div>
-                </li>
+                <li><a href="#sessions">Sessions</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -41,7 +27,13 @@
     <section id="overview">
         <div class="container session">
             <h2>Course Overview and Rationale</h2>
-            <p>The rapid development and deployment of Artificial Intelligence (AI) technologies have disrupted traditional legal frameworks, making existing legislation and case law obsolete or conflicting with new AI capabilities. This course explores the new legal paradigms and addresses the urgent need to regulate these gaps and establish technical and safety agreements in AI, which pose unique challenges and opportunities for policymakers and regulators. The course focuses on the different legislative approaches adopted by key global players, including the United States, the European Union, the United Kingdom, China, and the framework of international agreements. By examining these diverse regulatory environments, participants will gain a comprehensive understanding of how different regions address the ethical, economic, safety, and social implications of AI technologies while trying to promote innovation. By the end of this course, participants will have a strong understanding of the nuanced implications and challenges of AI on key pre-existing laws and how different regions are attempting to shape the future of AI and mitigate current legal and social concerns.</p>
+            <p>The rapid development and deployment of Artificial Intelligence (AI) technologies have disrupted traditional legal frameworks, making existing legislation and case law obsolete or conflicting with new AI capabilities.</p>
+            <p>This course explores:
+                <br>(1) This new legal paradigm and the urgent need to regulate these gaps and establish technical and safety agreements in AI.
+                <br>(2) The different legislator approaches adopted so far by the key global players including the United Sates, European Union, United Kingdom and China and the unique challenges and opportunities for policymakers and regulators.
+            </p>
+            <p>By examining these diverse regulatory environments, participants will gain a comprehensive understanding of how different regions are addressing the ethical, economic, safety and social implications of AI technologies while trying to promote innovation.</p>
+            <p>By the end of this course, participants will have a strong understanding of the nuance implications and challenges of AI on key pre-existing laws and how different regions are attempting to shape the future of AI and mitigate current legal and social concerns.</p>
         </div>
     </section>
 
@@ -237,22 +229,5 @@
             <p>For more information, please contact us at <a href="marcel.mir.t@gmail.com">marcel.mir.t@gmail.com</a>.</p>
         </div>
     </footer>
-
-    <script>
-        document.querySelector('.dropbtn').addEventListener('click', function() {
-            document.querySelector('.dropdown-content').classList.toggle('show');
-        });
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-    </script>
 </body>
 </html>

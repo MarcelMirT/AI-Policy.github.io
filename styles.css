@@ -77,12 +77,18 @@ h2 {
     color: #4CAF50;
     font-size: 2em;
     margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h2.centered {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
     color: #333;
     font-size: 1.5em;
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
